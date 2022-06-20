@@ -28,6 +28,7 @@ class DeleteBoard{
         this.organization.click()
         this.okBtn1.click()
         this.board.click()
+        cy.wait(4000)
         this.configureButton.click()
         this.deleteBtn.click()
         this.okBtn.click()
